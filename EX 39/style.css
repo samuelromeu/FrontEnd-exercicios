@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+    color: cadetblue;
+    
+}
+
+thead{
+    color: gold;
+    
+}
+
+tbody{
+    color: rgb(255, 180, 127);
+}
+
+tfoot{
+    color: pink;
+}
+
+
+
+table,th,td{
+   padding: 5px 2px 5px 2px;
+   height: 100%;
+}
+    
+table{
+    width: 100%;
+   
+}
