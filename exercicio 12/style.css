@@ -19,12 +19,11 @@ main {
     box-shadow: 5px 5px 1px black;
     max-height: 200px;
 }
-
 footer {
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 input{
      border: 100px;
