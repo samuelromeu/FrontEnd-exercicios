@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+
+ height: 60px;
+ background-color: #565656;
+ margin: 10px    ;
+ padding: 0;
+}
+.meio{
+    height: calc(100vh - 90px - 30vh);
+    background-color:#ee4242;
+    margin: 10px    ;
+    padding: 0;  
+}
+
+.baixo{
+    display: flex;
+    height: calc(30vh - 10px);
+    margin: 10px;
+    gap: 10px;
+    flex-direction: row;
+}
+
+#n1{
+    background-color: #2897f4;
+    width: calc(100vw/3);
+    height: 100%;
+}
+
+#n2{
+    background-color: #565656 ;
+    width: calc(100vw/3);
+    height: 100%;
+}
+
+#n3{
+    background-color: #2897f4;
+    width: calc(100vw/3);
+    height: 100%;
+}
