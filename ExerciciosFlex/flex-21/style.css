@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 60px;
+  background-color:aqua;
+  margin: 30px;
+}
+div {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+aside {
+  flex: 1;
+  max-width: 900px;
+  height:238px;
+  background-color: gray;
+}
+main {
+  flex: 1;
+  background-color: rgba(253, 7, 81, 0.788);
+  max-width:calc(100vh - 250px);
+  height: 238px;
+}
+  rodape2{
+  display: flex;
+
+  }
+  footer {
+   flex: 2;   
+   height:238px;
+   max-width: calc(100vh - 320px);
+   background-color:  rgba(253, 7, 81, 0.788);
+}
+
+nav {
+  flex: 2;
+  height:238px;
+  max-width: 880px;
+  background-color: aqua;
+}
+
