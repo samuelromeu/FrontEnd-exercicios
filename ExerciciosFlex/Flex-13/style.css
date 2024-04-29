@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    margin: 10px;
+    background-color: #2897f4;
+}
+main{
+    height: calc(100vh - 20vh - 30px);
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.n1{
+    height: 100%;
+    width: 20vw;
+    background-color: #2897f4;
+}
+.n2{
+    height: 100%;
+    width: 60vw;
+    background-color: #ee4242;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    height: 60px;
+    margin: 10px;
+    background-color: #2897f4;
+    
+}
+
+.meio{
+    height: calc(100vh - 80px);
+    width: 75vw; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+.meio-sup{
+    height: 40%;
+    margin-bottom: 10px;
+    background-color: #ee4242;
+}
+.meio-inf{
+    display: flex;
+    height: calc(60% - 30px);
+    gap: 10px;
+    flex-direction: row;
+}
+
+#n1{
+    height: 100%;
+    width: calc(100%/3);
+    background-color:   #2897f4;
+}
