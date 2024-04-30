@@ -1,0 +1,56 @@
+#Cabecalho{
+height: 150px;
+background-color: aqua;
+border: solid 10px white;
+}
+
+#Menu{
+    height: 500px; 
+    width: 300px;
+    background-color:orange;
+    float: left;
+    border: solid 10px white;
+
+}
+
+#Principal{
+    height: 500px;
+    width: 820px;
+    float: left;
+    border: solid 20px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Lado{
+    height: 500px; 
+    width: 300px;
+    background-color:orange;
+    float: right;
+    border: solid 10px white;
+    
+
+    
+}
+
+#Ret{
+    height: 200px;
+    width: 400px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#n1{
+    width: 100%;
+    background-color: aqua;
+    height: 50%;
+    margin-bottom: 10px;
+    
+}

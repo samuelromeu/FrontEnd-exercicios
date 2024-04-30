@@ -1,0 +1,37 @@
+#Cabecalho{
+    height: 50px;
+    background-color: rgb(255, 153, 0);
+    border: solid 10px white;
+    }
+    
+    #Menu{
+        height: 300px; 
+        width: 350px;
+        background-color: gray;
+        float: inline-end;
+       
+       display: flex;
+       flex-direction:column;
+    }
+    
+    #Principal{
+        height: 600px;
+        width: 1100px;
+        background-color: aqua;
+        float:left;
+        border: solid 10px white;
+    
+    }
+    
+    #Lado{
+        height: 300px;
+        width: 340px;
+        background-color: orange;
+        float: inline-end;
+        border: solid 15px white;
+       
+        display: flex;
+        flex-direction: column;
+    }
+    
+    

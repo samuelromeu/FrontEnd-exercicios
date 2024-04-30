@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: solid white 10px;
+    
+    
+    height: calc(100vh - 20vh - 30px) ;
+    
+
+}
+
+
+.n-1{
+    background-color: aqua;
+    height: 95%;
+    width: 25%;
+    margin: 10px 0;
+    border: solid white 10px;
+}
+
+.n-2{
+    background-color: red;
+    height: 95%;
+    width: 25%;
+    margin: 10px 0;
+    border: solid white 10px;
+}
+
+.n-3{
+    background-color: gray;
+    height: 95%;
+    width: 25%;
+    margin: 10px 0;
+    border: solid white 10px;
+}
+
+.n-4{
+    background-color:aqua ;
+    height: 95%;
+    width: 25%;
+    margin: 10px 0;
+    border: solid white 10px;
+}
+
+header{
+   
+    background-color: aqua;
+    height: 8vh;
+    
+    
+}
+
+footer{
+    background-color: aqua;
+    height: 8vh;
+}
